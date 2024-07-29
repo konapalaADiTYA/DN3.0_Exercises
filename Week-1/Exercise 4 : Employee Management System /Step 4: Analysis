@@ -1,0 +1,20 @@
+Q1)Analyze the time complexity of each operation (add, search, traverse, delete).
+Solution:-
+  The time complexity of each of the operations is:
+    ->add: O(1)
+    ->search: O(n)
+    ->traverse: O(n)
+    ->delete: O(n)
+
+Q2)Discuss the limitations of arrays and when to use them.
+Solution:-
+  Limitations of arrays:
+    ->Fixed Size: Cannot change size once declared.
+    ->Homogeneous Data: Only stores elements of the same type.
+    ->Inefficient Insertions/Deletions: Especially in the middle of the array.
+    ->Memory Waste: Unused elements still occupy space.
+  When to use:
+    ->Fixed Size Collections: Like days of the week.
+    ->Sequential Access: When you need to iterate over elements.
+    ->Random Access: Fast access using an index.
+    ->Homogeneous Data: Storing similar data types like exam scores.
