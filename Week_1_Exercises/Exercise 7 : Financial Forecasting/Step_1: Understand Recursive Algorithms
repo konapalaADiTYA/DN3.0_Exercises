@@ -1,6 +1,0 @@
-Q1)Explain the concept of recursion and how it can simplify certain problems.
-Solution:-
-  Recursion: A method of solving a problem where a function calls itself as a subroutine.
-             This allows the function to be repeated several times as it breaks the problem down into smaller, more manageable pieces.
-             Recursion can simplify certain problems by breaking them down into simpler sub-problems, which can be easier to solve and understand.
-

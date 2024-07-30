@@ -1,9 +1,0 @@
-Q1)Discuss the time complexity of your recursive algorithm.
-Solution:-
-  The time complexity of our recursive algorithm is O(n) where n is the number of years.
-  Each recursive call reduces the problem size by one year, leading to a linear number of calls.
-
-Q2)Explain how to optimize the recursive solution to avoid excessive computation.
-Solution:-
-  Recursion can lead to excessive computation if the same values are recalculated multiple times.
-  In more complex recursive problems, memoization can be used to optimize the solution and avoid recomputation.

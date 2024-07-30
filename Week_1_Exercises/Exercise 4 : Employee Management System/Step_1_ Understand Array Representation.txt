@@ -1,8 +1,0 @@
-Q1)Explain how arrays are represented in memory and their advantages.
-Solution:-
-  Arrays are stored in a contiguos memory locations,which means each element is placed next to the previos one.
-  This allows for efficient access since the computer can quickly calculate the address of the element using its index.
-  Advantages:
-    ->Fast access: We can directly access any element using its index value.
-    ->Memory Efficiency: No extra memory for pointers  or metadataassociated with the elements.
-    ->Easy Traversal: Easy to loop through any element.
