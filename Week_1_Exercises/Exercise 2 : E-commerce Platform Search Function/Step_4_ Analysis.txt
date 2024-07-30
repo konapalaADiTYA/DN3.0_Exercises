@@ -1,0 +1,17 @@
+Q1)Compare the time complexity of linear and binary search algorithms.
+Solution:-
+  Time Complexity for Linear Search:
+    ->Best Case: O(1)
+    ->Average Case: O(n)
+    ->Worst Case: O(n)
+  Time Complexity for Binary Search:
+    ->Best Case: O(1)
+    ->Average Case: O(log n)
+    ->Worst Case: O(log n)
+
+Q2)Discuss which algorithm is more suitable for your platform and why.
+Solution:- 
+  For an E-commerce platform with large inventory binary search is preferred.
+  Because of its faster search time. However the array must be sorted.   
+  
+  
