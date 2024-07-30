@@ -1,0 +1,8 @@
+Q1)Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+Solution:-
+  Singly Linked List:
+    ->Each node contains a data part and a reference to the next node in the sequence.
+    ->Can be traversed only in one direction (from head to tail).
+  Doubly Linked List:
+  ->Each node contains a data part, a reference to the next node, and a reference to the previous node.
+  ->Can be traversed in both directions (from head to tail and tail to head).

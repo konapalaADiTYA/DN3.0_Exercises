@@ -1,0 +1,14 @@
+Q1)Analyze the time complexity of each operation.
+Solution:-
+  Time complexity of each operation:
+    ->add: O(n)
+    ->search: O(n)
+    ->traverse: O(n)
+    ->delete: O(n)
+
+Q2)Discuss the advantages of linked lists over arrays for dynamic data.
+Solution:-
+  The advantages of linked lists over arrays are:-
+    ->Dynamic Size: They don't have a fixed size like arrays and can easily grow and shrink size by adding or removing nodes.
+    ->Memory Utilization: Linked lists are more efficient for dynamic data,unlike arrays which have unused allocated spaace.
+    ->Effective Insertions/Deletions: Linked list are more effifcient because there is no need to shift elements while insertion or deletion.
