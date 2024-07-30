@@ -1,0 +1,6 @@
+Q1)Explain linear search and binary search algorithms.
+Solution:-
+  ->Linear Search: Linear Search is a search algorithm that checks each element in a array sequentially until the target element is found or the end of the array is reached.
+  ->Binary Search: Binary search is an efficient search algorithm that works on sorted arrays by repeatedly dividing the search interval in half, comparing the target value to the middle element,
+                    and narrowing down the search to the left or right half accordingly.
+
