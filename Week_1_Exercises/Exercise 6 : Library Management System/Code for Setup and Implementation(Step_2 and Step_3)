@@ -33,6 +33,8 @@ class Book {
 		this.author = author;
 	}
 }
+
+
 public class LibraryManagementSystem {
     private Book[] books;
     private int size;
@@ -49,8 +51,24 @@ public class LibraryManagementSystem {
         }
         books[size++] = book;
     }
+    public Book binarySearchByTitle(String title) {
+        int left = 0;
+        int right = size - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int comparison = books[mid].getTitle().compareToIgnoreCase(title);
+            if (comparison == 0) {
+                return books[mid];
+            }
+            if (comparison < 0) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return null;
+    }
 
-    // Linear Search to find books by title
     public Book linearSearchByTitle(String title) {
         for (int i = 0; i < size; i++) {
             if (books[i].getTitle().equalsIgnoreCase(title)) {
@@ -64,7 +82,7 @@ public class LibraryManagementSystem {
     }
     public static void main(String[] args) {
         LibraryManagementSystem lib = new LibraryManagementSystem(10);
-        Book b1 =new Book("01", "Merchant of Venice", "William Shakespeare");
+        Book b1 = new Book("01", "Merchant of Venice", "William Shakespeare");
         Book b2 = new Book("02", "1984", "George Orwell");
         Book b3 = new Book("03", "The Great Gatsby", "F. Scott Fitzgerald");
         lib.addBook(b1);
@@ -81,6 +99,14 @@ public class LibraryManagementSystem {
         if (foundBook != null) {
             System.out.println("Book Found!!");
             lib.display_book(foundBook);
+        } else {
+            System.out.println("Book not found.");
+        }
+        System.out.println("\nSearching for '1984' using Binary Search:");
+        Book foundBook2 = lib.binarySearchByTitle("1984");
+        if (foundBook2 != null) {
+            System.out.println("Book Found!! ");
+            lib.display_book(foundBook2);
         } else {
             System.out.println("Book not found.");
         }
